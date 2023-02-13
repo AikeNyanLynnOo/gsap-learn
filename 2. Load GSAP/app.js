@@ -34,7 +34,8 @@ window.addEventListener("load", () => {
       "-=0.4"
     )
     .to(flip, { y: "0", duration: 0.4 }, "-=0.3")
-    .to(flip, { y: "-100%", duration: 0.5, delay: 0.15 }, "-=0.1")
+    .to(flipImg1, { display: "none" }, "-=0.3")
+    .to(flip, { y: "-100%", duration: 0.5 }, "-=0.1")
     .to(loadContainer, {
       duration: 1.5,
       autoAlpha: 0,
